@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <title>健四三B</title>
+<div class="resume">
+  <div class="left">
+    <h1><big><strong><center>--履歷表--</center></strong></big></h1>
+    <h4>062114205 陳姿吟</h4>
+    <div class="buttons">
+   
+    </div>
+    <div class="block">
+      <h2>一、大頭貼</h2>
+     
+      <a href="default.asp">
+          <img src="https://image.flaticon.com/icons/svg/1615/1615391.svg" alt="HTML tutorial"
+       style="width:150
+              px;height:100px;border:70">
+      </a>
+       <html>
+   <body>
+      <div class="block">
+     <h2>二、個人檔案</h2>
+     <dl>
+       <dt><ul>姓名: 陳姿吟</ul></dt> 
+       <dt><ul>生日:88/07/05</ul></dt>
+       <dt><ul>年齡:20</ul></dt>
+       <dt><ul>國籍:台灣</ul></dt>
+       <dt><ul>性別:女</ul></dt>
+     </dl>
+     </div>
+   </body>
+  </html>
+     <div class="block">
+    <h2>三、聯絡方式</h2>
+    <dl>
+      <dt><ul>手機號碼:0906588096</ul></dt>
+      <dt><ul>家中電話:0425634106</ul></dt>
+      <dt><ul>Email:b87875@gmail.com</ul></dt>
+      <dt><ul>住址:台中市神岡區大圳路69巷21號</ul></dt>
+    </dl>
+    <div class="block">
+    <h2>四、學歷&工作經驗</h2>
+        <li>最高學歷:國立台北護理健康大學
+          <div class="bar">
+            <div class="value p50"></div>
+          </div>
+        </li>
+        <li>工作經驗:中醫診所、耳鼻喉科診所
+          <div class="bar">
+            <div class="value p30"></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+    <html>
+      <body>
+    <div class="block">
+        <h2>五、專長&興趣</h2>
+        <h3><ul>專長</ul></h3>
+        <ul>
+          <li>文書</li>
+          <li>做拼貼</li>
+        </ul>
+      
+      <h3>興趣</h3>
+      <ol>
+        <li>寫字</li>
+        <li>畫畫</li>
+      </ol>
+      </body>
+    </html>
+ <div class="block">
+      <h2>六、自傳</h2>
+            
+            <p><ul>我是陳姿吟，出生於嘉義市，高中畢業於台中市明台高中，我的家中成員有爸爸媽媽還有一個正在就讀高一的妹妹，我曾經在中醫診所打工，現在在明德的一間耳鼻喉科工讀。</ul></p>
+          </body>
+        </html>
+  </head>
+</html>
+
+*{
+/*   border: solid 1px black; */
+}
+body{
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: 	#AAAAAA;
+  color: rgba(255,255,255,0.95);
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  font-family: "微軟正黑體",sans-serif;
+}
+
+ul{
+  padding: 0;
+  list-style: none;
+}
+h2{
+  margin: 0;
+  margin-bottom: 25px;
+  font-weight: 300;
+}
+h2::after{
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 3px;
+  background-color: #778899;
+  margin-left: 10px;
+}
+h4{
+  margin: 0;
+  margin-top: 40px;
+  opacity: 0.8;
+  font-weight: 400;
+}
+a{
+  color: white;
+  text-decoration: none
+}
+.resume{
+  display: flex;
+  max-width: 950px;
+  border: solid 8px white;
+  padding: 50px;
+  position: relative;
+}
+.left{
+  flex: 5
+}
+.left{
+  padding-right: 50px;
+  border-right: solid 1px 	#FFD700;
+}
